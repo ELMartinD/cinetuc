@@ -1,0 +1,336 @@
+.galeriaimg{
+   display: flex;
+   background-color: rgb(18, 18, 18);
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   flex-wrap: wrap;
+   height: auto;
+}
+
+@media screen and (max-width: 480px) {
+
+    
+
+    .peliculas {
+        margin: 0.5%;
+        padding: 2%;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+
+    img.peliculasimg {
+        width: 80%;
+    }
+
+    img.peliculasimg:hover {
+        width: 90%;
+    }
+
+    .sobrenosotros {
+        border: 1px solid white;
+        background-color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Outfit", sans-serif;
+        font-weight: 800;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .info {
+        margin-top: 5%;
+    }
+
+    .navegacion {
+        padding: 1.5%;
+    }
+
+    img.animated {
+        margin-bottom: 2%;
+    }
+
+    .navegacion {
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        padding: 0.5%;
+        height: 60px;
+    }
+}
+
+    
+
+.formulario {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+    padding-top: 4%;
+    outline: none;
+}
+
+.input {
+    width: 84%;
+    padding: 5%;
+    margin: 5%;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    border: 0px solid;
+    border-radius: 56px;
+    font-size: 100%;
+    outline: none;
+}
+
+.enviar {
+    margin-top: 2%;
+    padding: 1%;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    font-size: 100%;
+    background-color: transparent;
+    border: 2px solid yellow;
+    color: white;
+    transition: 1s;
+}
+
+.enviar:hover{
+    padding: 1.2%;
+    background-color: yellow;
+    color: #000000;
+
+}
+
+.textarea {
+    font-size: 100%;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    width: 92%;
+    margin-left: 5%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    outline: none;
+    border-radius: 20px;
+}
+
+.formulariotext{
+    text-align: center;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+}
+
+.sobrenosotros{
+    border: 1px solid white;
+    background-color: #000000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 33.33%;
+    color: white;
+}
+
+.animated {
+    position: sticky;
+    width: 110%;
+    margin-top: -100%;
+    opacity: 0%;
+    transition: 1s;
+}
+
+.animated:hover{
+    opacity: 100%;
+}
+
+
+.animacion {
+    width: 100%;
+    transition: 1s;
+}
+
+
+.portadaimg{
+    margin-left: 15%;
+    animation: animacion 30s infinite;
+
+}
+
+@keyframes animacion {
+    0% {
+      transform: translateX(-50%);
+    }
+    25% {
+      transform: translateX(-220%);
+    }
+    50% {
+      transform: translateX(-400%);
+    }
+    75% {
+      transform: translateX(-220%);
+    }
+    100% {
+        transform: translateX(-50%);
+      }
+
+}
+
+.portada {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    width: 350%;
+}
+
+.navegacion {
+    display: flex;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.portadaimg{
+    color: wheat;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.entradas{
+    padding: 4%;
+    border-radius: 50px;
+    border: 0px solid;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+    transition: 1s;
+}
+
+.entradas:hover{
+    padding: 5%;
+    background-color: #ff0000;
+    color: white;
+}
+
+.paneles {
+    width: 25%;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    margin-right: 2%;
+}
+
+.galeriaimg{
+    background-image: linear-gradient(to right, #000000, #000000, #1a1a1a, #1a1a1a, #000000, #000000);
+    animation: color 10s linear infinite;
+    background-size: 500%;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.peliculas {
+    margin: 0.5%;
+    padding: 2%;
+}
+
+.peliculasimg {
+    width: 115%;
+    transition: 1s;
+}
+
+.peliculasimg:hover {
+    width: 120%;
+}
+
+
+.peliculatexto {
+    font-size: 150%;
+    padding: 0px;
+    margin: 0px;
+    color: whitesmoke;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    width: 100%;
+    transition: 1s;
+}
+
+.peliculatexto:hover {
+    color: rgb(255, 145, 0);
+    font-size: 160%;
+    
+}
+
+
+.botonpelicula {
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 2cm;
+    color: white;
+    background-color: rgb(8, 8, 8);
+    transition: 1s;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    border: 0px solid;
+}
+
+.botonpelicula:hover {
+    padding: 4%;
+    background-color: blueviolet;
+
+}
+
+.cartelera {
+    display: inline-block;
+    width: 100%;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    margin-left: 5%;
+    color: rgb(0, 0, 0);
+    margin-top: 1%;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;       
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black;     
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 0, 0);  
+    border-radius: 20px;   
+    border: 3px solid rgb(0, 0, 0);
+}
