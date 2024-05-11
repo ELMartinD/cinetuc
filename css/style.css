@@ -17,6 +17,10 @@
 
 @media screen and (max-width: 480px) {
 
+    #logocl{
+        width: 200%;
+    }
+
     #sobrenosotroscl{
         border: 0px solid;
     }
@@ -34,7 +38,7 @@
 
     #panelesmovil{
         width: 100%;
-        height: 60px;
+        height: 80px;
     }
 
     #portadacl{
@@ -301,7 +305,23 @@ h4.infotext {
 }
 
 .paneles {
-    width: 25%;
+    width: 33.33%;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    margin-right: 2%;
+}
+
+.paneles2 {
+    width: 33.33%;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    margin-right: 2%;
+}
+
+.paneles3 {
+    width: 33.33%;
     justify-content: end;
     align-items: center;
     display: flex;
