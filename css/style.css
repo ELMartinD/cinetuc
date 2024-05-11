@@ -8,6 +8,21 @@
    height: auto;
 }
 
+.boca{
+    opacity: 0%;
+    width: 20%;
+    position: absolute;
+    margin-bottom: -110%;
+    transition: 1s;
+}
+
+.boca:hover{
+    width: 21%;
+    opacity: 100%;
+}
+
+
+
 .navegacion{
     width: 100%;
     display: flex;
@@ -16,6 +31,19 @@
 
 
 @media screen and (max-width: 480px) {
+
+    #bocacl{
+        opacity: 0%;
+        width: 76.5%;
+        position: absolute;
+        margin-bottom: -110%;
+        transition: 1s;
+    }
+    
+    #bocacl:hover{
+        width: 76.5%;
+        opacity: 100%;
+    }
 
     #logocl{
         width: 200%;
