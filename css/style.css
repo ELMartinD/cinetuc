@@ -8,9 +8,75 @@
    height: auto;
 }
 
+.navegacion{
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+
+
 @media screen and (max-width: 480px) {
 
-    
+    #sobrenosotroscl{
+        border: 0px solid;
+    }
+
+    #infocl {
+        border-bottom: 2px solid;
+        padding: 2%;
+    }
+
+    #carteleracl{
+        text-align: center;
+        padding: 3%;
+
+    }
+
+    #panelesmovil{
+        width: 100%;
+        height: 60px;
+    }
+
+    #portadacl{
+        width: 600%;
+    }
+
+    div.sobrenosotros {
+        border: 1px solid white;
+        background-color: #000000;
+        display: flex;
+        font-family: "Outfit", sans-serif;
+        font-weight: 800;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        flex-wrap: wrap;
+    }
+
+    h4.infotext {
+        width: 80%;
+    }
+
+    div.info {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        color: white;
+        align-items: center;
+    }
+
+    textarea.textarea {
+        border-radius: 0%;
+    }
+
+    input.input {
+        padding: 3%;
+    }
+
+    button.enviar {
+        width: 44%;
+        margin-top: 3%;
+    }
 
     .peliculas {
         margin: 0.5%;
@@ -48,19 +114,9 @@
         margin-top: 5%;
     }
 
-    .navegacion {
-        padding: 1.5%;
-    }
 
     img.animated {
         margin-bottom: 2%;
-    }
-
-    .navegacion {
-        display: flex;
-        background-color: rgb(0, 0, 0);
-        padding: 0.5%;
-        height: 60px;
     }
 }
 
@@ -132,7 +188,6 @@
 }
 
 .sobrenosotros{
-    border: 1px solid white;
     background-color: #000000;
     display: flex;
     text-align: center;
@@ -148,8 +203,18 @@
 .info {
     display: flex;
     flex-wrap: wrap;
-    width: 33.33%;
+    width: 30.33%;
     color: white;
+    border-right: 3px solid;
+    margin-left: 2%;
+}
+
+.sobrenosotrostext{
+    padding: 4%;
+}
+
+h4.infotext {
+    border: 2px soli black;
 }
 
 .animated {
@@ -205,11 +270,6 @@
     width: 350%;
 }
 
-.navegacion {
-    display: flex;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-}
 
 
 
@@ -317,7 +377,7 @@
     font-family: "Outfit", sans-serif;
     font-weight: 800;
     margin-left: 5%;
-    color: rgb(0, 0, 0);
+    color: rgb(255 255 255);
     margin-top: 1%;
 }
 
