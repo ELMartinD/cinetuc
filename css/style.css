@@ -8,6 +8,7 @@
    height: auto;
 }
 
+
 .boca {
     opacity: 0%;
     width: 21%;
@@ -45,18 +46,48 @@
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 690px) {
 
-    #bocacl{
+    #botonpeliculacl{
+        font-size: 50%;
+
+    }
+
+    #peliculasimgcl {
+        width: 98%;
+    }
+
+    #peliculasimgcl:hover {
+        width: 100%;
+    }
+
+
+    h1.peliculatexto {
+        text-align: start;
+        font-size: 80%;
+        transition: 1s;
+    }
+
+    h1.peliculatexto:hover{
+        font-size: 90%;
+        color: rgb(255, 136, 0);
+    }
+
+    #peliculascl {
+        width: 40%;
+        justify-content: start;
+    }
+
+    #bocacl {
         opacity: 0%;
-        width: 76.5%;
+        width: 39%;
         position: absolute;
         margin-bottom: -110%;
         transition: 1s;
     }
     
     #bocacl:hover{
-        width: 76.5%;
+        width: 39%;
         opacity: 100%;
     }
 
@@ -71,6 +102,7 @@
     #infocl {
         border-bottom: 2px solid;
         padding: 2%;
+        padding-bottom: 4%;
     }
 
     #carteleracl{
