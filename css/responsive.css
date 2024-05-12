@@ -209,6 +209,10 @@
         flex-direction: column;
     }
 
+    #infotextcl{
+        border: 0px solid;
+    }
+
     .info {
         margin-top: 5%;
     }
