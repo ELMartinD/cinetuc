@@ -56,10 +56,10 @@
 
     @keyframes hola {
         0% {
-          transform: translateX(-20%);
+          transform: translateX(-29%);
         }
         10% {
-            transform: translateX(-20%);
+            transform: translateX(-29%);
           }
         20% {
           transform: translateX(-133%);
@@ -80,10 +80,10 @@
             transform: translateX(-133%);
         }
         80% {
-            transform: translateX(-20%);
+            transform: translateX(-29%);
         } 
         100% {
-            transform: translateX(-20%);
+            transform: translateX(-29%);
         }  
     
     }
