@@ -1,0 +1,131 @@
+.portadaimg{
+    margin-left: 15%;
+    animation: animacion 30s infinite;
+
+}
+
+@keyframes animacion {
+    0% {
+      transform: translateX(-50%);
+    }
+    25% {
+      transform: translateX(-220%);
+    }
+    50% {
+      transform: translateX(-400%);
+    }
+    75% {
+      transform: translateX(-220%);
+    }
+    100% {
+        transform: translateX(-50%);
+      }
+
+}
+
+
+.boca {
+    opacity: 0%;
+    width: 21%;
+    position: absolute;
+    margin-bottom: -110%;
+    transition: 1s;
+}
+
+.boca:hover{
+    width: 21%;
+    opacity: 100%;
+}
+
+.botonpelicula {
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 2cm;
+    color: white;
+    background-color: rgb(8, 8, 8);
+    transition: 1s;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    border: 0px solid;
+}
+
+.botonpelicula:hover {
+    padding: 4%;
+    background-color: blueviolet;
+
+}
+
+.peliculatexto {
+    font-size: 150%;
+    padding: 0px;
+    margin: 0px;
+    color: whitesmoke;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    width: 100%;
+    transition: 1s;
+}
+
+.peliculatexto:hover {
+    color: rgb(255, 145, 0);
+    font-size: 160%;
+    
+}
+
+.peliculasimg {
+    width: 115%;
+    transition: 1s;
+}
+
+.peliculasimg:hover {
+    width: 120%;
+}
+
+
+.entradas{
+    padding: 4%;
+    border-radius: 50px;
+    border: 0px solid;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+    transition: 1s;
+}
+
+.entradas:hover{
+    padding: 5%;
+    background-color: #ff0000;
+    color: white;
+}
+
+.animated {
+    position: sticky;
+    width: 110%;
+    margin-top: -100%;
+    opacity: 0%;
+    transition: 1s;
+}
+
+.animated:hover{
+    opacity: 100%;
+}
+
+.enviar {
+    margin-top: 2%;
+    padding: 1%;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    font-size: 100%;
+    background-color: transparent;
+    border: 2px solid yellow;
+    color: white;
+    transition: 1s;
+}
+
+.enviar:hover{
+    padding: 1.2%;
+    background-color: yellow;
+    color: #000000;
+
+}
