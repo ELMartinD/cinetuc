@@ -1,13 +1,55 @@
-.galeriaimg{
-   display: flex;
-   background-color: rgb(18, 18, 18);
-   align-items: center;
-   justify-content: center;
-   width: 100%;
-   flex-wrap: wrap;
-   height: auto;
+.galeriaimg {
+    display: flex;
+    background-color: rgb(18, 18, 18);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 8%;
 }
 
+.infoo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30.33%;
+    color: white;
+    margin-left: 2%;
+}
+
+.opiniones{
+    display: flex;
+}
+
+.opinionestxt{
+    padding-top: 2%;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    background-color: rgb(194, 165, 130);
+}
+
+.perfiles {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 4%;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    background-color: rgb(194, 165, 130);
+}
+
+.perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 2cm;
+    object-fit: cover;
+}
 
 
 .boca {
@@ -48,6 +90,18 @@
 
 
 @media screen and (max-width: 690px) {
+
+    #opinionescl{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #perfilescl {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 
     #portadaimgcl{
         margin-left: 2%;
@@ -257,7 +311,7 @@
 
 .input {
     width: 84%;
-    padding: 5%;
+    padding: 3%;
     margin: 5%;
     font-family: "Outfit", sans-serif;
     font-weight: 800;
