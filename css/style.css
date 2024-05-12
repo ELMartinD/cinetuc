@@ -9,6 +9,7 @@
 }
 
 
+
 .boca {
     opacity: 0%;
     width: 21%;
@@ -47,6 +48,46 @@
 
 
 @media screen and (max-width: 690px) {
+
+    #portadaimgcl{
+        margin-left: 2%;
+        animation: hola 30s infinite;
+    }
+
+    @keyframes hola {
+        0% {
+          transform: translateX(-20%);
+        }
+        10% {
+            transform: translateX(-20%);
+          }
+        20% {
+          transform: translateX(-133%);
+        }
+        30% {
+          transform: translateX(-133%);
+        }
+        40% {
+          transform: translateX(-240%);
+        }
+        50% {
+            transform: translateX(-240%);
+        }
+        60% {
+            transform: translateX(-133%);
+        }
+        70% {
+            transform: translateX(-133%);
+        }
+        80% {
+            transform: translateX(-20%);
+        } 
+        100% {
+            transform: translateX(-20%);
+        }  
+    
+    }
+
 
     #botonpeliculacl{
         font-size: 50%;
@@ -116,7 +157,7 @@
         height: 80px;
     }
 
-    #portadacl{
+    #portadacl {
         width: 600%;
     }
 
