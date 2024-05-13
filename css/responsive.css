@@ -17,16 +17,6 @@
 @media screen and (max-width: 690px) {
 
 
-    .formulariocl {
-        box-shadow: 0px 0px 69px black;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 85%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-    }
-
     #uno{
     display: flex;
     background-position: center;
@@ -81,7 +71,34 @@
         justify-content: center;
         text-align: center;
         transition: 2s;
-        }
+    }
+
+
+    #uno:hover{
+        margin: 5%;
+    }
+
+    #dos:hover{
+        margin: 5%;
+    }
+
+    #tres:hover{
+        margin: 5%;
+    }
+
+    #cuatro:hover{
+        margin: 5%;
+    }
+
+    .formulariocl {
+            box-shadow: 0px 0px 69px black;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 85%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+    }    
 
     #presentacioncl{
         display: flex;
