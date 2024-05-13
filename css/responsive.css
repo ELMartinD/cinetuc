@@ -30,6 +30,13 @@
     transition: 2s;
     }
 
+    #uno:hover{
+    margin:5%
+    }
+
+
+
+
     #dos{
         display: flex;
         background-position: center;
