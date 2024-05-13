@@ -6,8 +6,50 @@
     width: 100%;
     flex-wrap: wrap;
     height: auto;
-    padding-bottom: 8%;
 }
+
+.presentacion{
+    width: 100%;
+    display: flex;
+}
+
+.presentacion {
+    background-color: #000000;
+    background-attachment: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 12%;
+}
+
+
+#uno{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(/img/joker-2019-poster-joaquin-phoenix.jpg);
+}
+
+#dos{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(/img/cartel-venom-1-carlos-villarin-freelance.jpg);
+}
+
+#tres{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(/img/Sb68GTbzLEKB3BcC2HbONA.webp);
+}
+
+#cuatro{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(/img/nosotros-poster-1549472640.jpg);
+}
+
+
+.destacadastxt{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    padding: 4%;
+    background-color: #000000;
+    color: white;
+}
+
 
 .infoo {
     display: flex;
@@ -17,12 +59,13 @@
     margin-left: 2%;
 }
 
-.opiniones{
+.opiniones {
     display: flex;
+    background: black;
 }
 
-.opinionestxt{
-    padding-top: 2%;
+.opinionestxt {
+    padding: 2%;
     text-align: center;
     font-family: "Outfit", sans-serif;
     font-weight: 800;
@@ -42,6 +85,7 @@
     font-weight: 800;
     text-align: center;
     background-color: rgb(194, 165, 130);
+    margin: 1%;
 }
 
 .perfil{
