@@ -55,6 +55,8 @@
 
 }
 
+
+
 .peliculatexto {
     font-size: 150%;
     padding: 0px;
@@ -113,7 +115,7 @@
 
 .enviar {
     margin-top: 2%;
-    padding: 1%;
+    padding: 2% 7% 2% 7%;
     font-family: "Outfit", sans-serif;
     font-weight: 800;
     font-size: 100%;
@@ -124,7 +126,7 @@
 }
 
 .enviar:hover{
-    padding: 1.2%;
+    padding: 3% 8% 3% 8%;
     background-color: yellow;
     color: #000000;
 
@@ -148,3 +150,27 @@
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.445), rgb(0, 0, 0)), url(https://static.posters.cz/image/350/posters/rocky-balboa-pelicula-de-rocky-i167759.jpg);
     width: 25%;
 }
+
+.perfiles:hover{
+    width: 27%;
+    box-shadow: 0px 0px 100px #c2a582;
+}
+
+.formularioo:hover{
+    box-shadow: 0px 0px 137px #ff00003b;
+}
+
+.input:hover{
+    box-shadow: 0px 0px 531px #ff00003b;
+    background-color: #ffffff1e;
+}
+
+.textarea:hover{
+    box-shadow: 0px 0px 531px #ff00003b;
+    background-color: #ffffff1e;
+}
+
+.sobrenosotros:hover{
+    box-shadow: 0px 0px 123px #ff000028;
+}
+
