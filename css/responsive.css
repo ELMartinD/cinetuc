@@ -16,6 +16,19 @@
 
 @media screen and (max-width: 690px) {
 
+    #peliculasimggcl {
+        width: 92%;
+        position: absolute;
+        opacity: 0%;
+        transition: 1s;
+    }
+
+    #peliculasimggcl:hover{
+        position: absolute;
+        opacity: 100%;
+    }
+    
+
     .galeriamodernacl{
         width: 100%;
         flex-wrap: wrap;
@@ -334,4 +347,15 @@
     img.animated {
         margin-bottom: 2%;
     }
+
+    
+
+
+
+
+
+
+
+
+
 }

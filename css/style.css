@@ -9,6 +9,8 @@
     height: auto;
 }
 
+
+
 .galeriamoderna{
     display: flex;
     margin: auto;
@@ -37,16 +39,17 @@
 }
 
 #g1{
-    background-image: linear-gradient(#00000000, #0000008a),  url(/posters/61ln1IWAiwL._AC_UF1000\,1000_QL80_.jpg);
+    background-image: linear-gradient(#00000000, #000000),  url(/posters/61ln1IWAiwL._AC_UF1000\,1000_QL80_.jpg);
 }
 
 #g2{
-    background-image: linear-gradient(#00000000, #0000008a),  url(/posters/joker-2-poster-660d1344c56e8.jpeg);
+    background-position: 10% 10%;
+    background-image: linear-gradient(#00000000, #000000),  url(/posters/joker-2-poster-660d1344c56e8.jpeg);
 
 }
 
 #g3{
-    background-image: linear-gradient(#00000000, #0000008a), url(/posters/juegos-hambre-balada-pajaros-cantores-serpientes-3210328.webp);
+    background-image: linear-gradient(#00000000, #000000), url(/posters/juegos-hambre-balada-pajaros-cantores-serpientes-3210328.webp);
 }
 
 #g1:hover{
@@ -345,6 +348,24 @@ body{
 .peliculas {
     margin: 0.5%;
     padding: 2%;
+    position: relative;
+}
+
+.peliculasimggg{
+    width: 350px;
+}
+
+
+.peliculasimgg{
+    width: 350px;
+    position: absolute;
+    opacity: 0%;
+    transition: 1s;
+}
+
+.peliculasimgg:hover{
+    position: absolute;
+    opacity: 100%;
 }
 
 

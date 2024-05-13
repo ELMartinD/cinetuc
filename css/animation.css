@@ -19,9 +19,10 @@
     }
     100% {
         transform: translateX(-50%);
-      }
+    }
 
 }
+
 
 
 .boca {
@@ -177,4 +178,5 @@
 .formulario:hover {
     background: linear-gradient(354deg, #9393931f, transparent);
 }
+
 
