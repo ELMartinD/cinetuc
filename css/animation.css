@@ -35,12 +35,12 @@
     outline: none;
     background: linear-gradient(-365deg,#464564,rebeccapurple,#000000, #000000);
     background-size: 300% 300%;
-    animation: hola 12s ease infinite;
+    animation: fondogradual 12s ease infinite;
     height: 100vh;
 
 }
 
-@keyframes hola {
+@keyframes fondogradual {
 	0% {
 		background-position: 0% 0%;
 	}
