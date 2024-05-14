@@ -23,6 +23,59 @@
 
 }
 
+.formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+    padding-top: 4%;
+    outline: none;
+    background: linear-gradient(-365deg,#464564,rebeccapurple,#000000, #000000);
+    background-size: 300% 300%;
+    animation: hola 12s ease infinite;
+    height: 100vh;
+
+}
+
+@keyframes hola {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
+}
+
+
+body{
+    background: linear-gradient(90deg, rgb(0, 0, 0), black, rgb(24, 0, 51), black, rgb(0, 0, 0));
+    background-size: 400% 400%;
+    animation: cambiar 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes cambiar {
+
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 200%;
+    }
+
+    100%{
+        background-position: 0% 0%;
+    }
+    
+}
+
 
 
 .boca {
@@ -157,6 +210,7 @@
     box-shadow: 0px 0px 100px #c2a582;
 }
 
+
 .formularioo:hover{
     box-shadow: 0px 0px 137px #ff00003b;
 }
@@ -202,4 +256,32 @@
     padding: 3%;
     box-shadow: 0px 0px 100px rgb(194, 165, 130);
 }
+
+#g1:hover{
+    box-shadow: 0px 0px 43px #ff98008f;
+}
+
+#g2:hover{
+    box-shadow: 0px 0px 43px #00d9ff8f;
+}
+
+#g3:hover{
+    box-shadow: 0px 0px 43px #ff98008f;
+}
+
+.peliculasimgg:hover{
+    position: absolute;
+    opacity: 100%;
+}
+
+
+.galeriamodernaimg:hover{
+    width: 35%;
+}
+
+
+.formulario:hover{
+    opacity: 1;
+}
+
 
