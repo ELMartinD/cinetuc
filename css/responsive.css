@@ -17,7 +17,7 @@
 @media screen and (max-width: 690px) {
 
     #peliculasimggcl {
-        width: 92%;
+        width: 87%;
         position: absolute;
         opacity: 0%;
         transition: 1s;

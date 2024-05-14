@@ -31,7 +31,7 @@
     justify-items: center;
     flex-wrap: wrap;
     text-align: center;
-    transition: 2s;
+    transition: 3s;
 }
 
 .galeriamodernaimg:hover{
@@ -352,12 +352,12 @@ body{
 }
 
 .peliculasimggg{
-    width: 350px;
+    width: 95%;
 }
 
 
 .peliculasimgg{
-    width: 350px;
+    width: 297px;
     position: absolute;
     opacity: 0%;
     transition: 1s;
