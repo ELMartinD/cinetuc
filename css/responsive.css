@@ -39,8 +39,19 @@
         transition: 2s;
     }
 
-    .galeriamodernaimgcl:hover{
-        width: 80%;
+    #g1:hover{
+        width: 90%;
+        transition: 2s;
+    }
+
+    #g2:hover{
+        width: 90%;
+        transition: 2s;
+    }
+
+    #g3:hover{
+        width: 90%;
+        transition: 2s;
     }
 
     #g1{
