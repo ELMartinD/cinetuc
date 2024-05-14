@@ -105,13 +105,16 @@
 }
 
 
-.destacadastxt{
+.destacadastxt {
     text-align: center;
     font-family: "Source Code Pro", monospace;
     font-weight: 800;
     padding: 4%;
     background-color: #000000;
     color: white;
+    transition: 2s;
+    position: relative;
+    
 }
 
 
@@ -135,6 +138,7 @@
     font-weight: 800;
     background-color: rgb(194, 165, 130);
     margin: 0px 1% 0px 1%;
+    transition: 2s;
 }
 
 .perfiles {
