@@ -139,6 +139,7 @@
     background-color: rgb(194, 165, 130);
     margin: 0px 1% 0px 1%;
     transition: 2s;
+    position: relative;
 }
 
 .perfiles {
