@@ -166,7 +166,9 @@
     object-fit: cover;
 }
 
-
+body{
+    background-color: #000000;
+}
 
 
 .navegacion{
@@ -178,7 +180,6 @@
 
 .formulario {
     width: 100%;
-    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,6 +188,7 @@
     padding-bottom: 10%;
     padding-top: 4%;
     outline: none;
+    background: linear-gradient(rgb(0, 0, 0), #000000 , rgba(255, 255, 255, 0.089));
     transition: 1s;
 }
 
@@ -345,15 +347,13 @@ h4.infotext {
     padding: 0px;
 }
 
-body{
-    background-color: #000000;
-}
 
 .peliculas {
     margin: 0.5%;
     padding: 2%;
     position: relative;
 }
+
 
 .peliculasimggg{
     width: 95%;
